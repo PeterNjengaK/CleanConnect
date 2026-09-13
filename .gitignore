@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Build and test output
+dist/
+build/
+coverage/
+.vite/
+
+# Runtime output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Android local/build files (for the planned mobile app)
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+*.jks
+*.keystore
